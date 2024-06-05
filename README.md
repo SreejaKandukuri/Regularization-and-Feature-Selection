@@ -1,3 +1,7 @@
 # Regularization-and-Feature-Selection
 
 Ames housing dataset includes both categorical and numerical variables, as well as a wide range of features and attributes connected to each property. In the Ames house Dataset, the regression model we created for predicting house prices has produced encouraging results. We chose the Gr.Liv.Area, Garage.Area, and Total.Bsmt.SF variables as significant predictors of the SalePrice after examining and evaluating the dataset. The multiple linear regression model produced a high R-squared value of 0.6795, indicating that the selected predictors can account for roughly 67.95% of the variance in home prices. All of the model's coefficients were statistically significant (p 0.001), indicating that they significantly affect house prices.
+
+ChiSqaureANOVA: The Chi-Square statistic, a gauge of how much the observed frequencies deviate from the expected frequencies, is calculated as part of the test. While a large score denotes a considerable discrepancy between the observed and predicted frequencies, a small Chi-Square value suggests that the actual and expected frequencies are similar.
+ANOVA: ANOVA is used to obtain the F-statistic, which is the ratio of variance within groups to variance in group means. A large F-value suggests that there may be a substantial difference in means because it shows that the variation between group means is greater than the variation within the groups.
+
