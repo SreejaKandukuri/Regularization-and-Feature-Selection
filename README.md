@@ -7,3 +7,5 @@ ANOVA: ANOVA is used to obtain the F-statistic, which is the ratio of variance w
 
 GLM and Feature Selection:The test set's accuracy was roughly 87.18% whereas the training set's accuracy was roughly 84.53%. Calculated for both sets, the precision, recall, and specificity showed that the model could properly identify private colleges. The true positive rate of the model was displayed against the false positive rate at various thresholds using the ROC curve. The test set's AUC was roughly 0.8935, supporting the model's capacity for prediction. 
 
+Regularization: In comparison to the Ridge model, the LASSO model has lower AIC and BIC values. This shows that, as compared to the Ridge model, the LASSO model offers a better trade-off between goodness-of-fit and model complexity to predict the grad rate of a college 
+
